@@ -7,3 +7,7 @@ func LuasPersegi(s int) int {
 func KelilingPersegi(s int) int {
 	return 4 * s
 }
+
+func LuasSegitiga(a, t int) int {
+	return a * t / 2
+}
