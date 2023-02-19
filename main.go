@@ -11,3 +11,8 @@ func KelilingPersegi(s int) int {
 func LuasSegitiga(a, t int) int {
 	return a * t / 2
 }
+
+func LuasLingkaran(r float32) float32 {
+	const Phi float32 = 3.14
+	return Phi * r * r
+}
