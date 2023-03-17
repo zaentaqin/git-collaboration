@@ -60,3 +60,10 @@ func hitungVolumeBola(jariJari float64) float64 {
 func luasJajarGenjang(a, t int) int {
 	return a * t / 2
 }
+
+// write by hamdan 
+func hitungWaktuTempuh(jarak float64, kecepatan float64) float64 {
+    waktu := jarak / kecepatan
+    return waktu
+}
+
