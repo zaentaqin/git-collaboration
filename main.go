@@ -26,3 +26,7 @@ func VolumeKubus(s int) (result int) {
 func LuasPermukaanKubus(s int) (result int) {
 	return s * s * 6
 }
+
+func VolumeBalok(p, l, t int) int {
+	return p * l * t
+}
