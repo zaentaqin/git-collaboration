@@ -1,6 +1,7 @@
 console.log("Test");
 
 // Tugas e hamdan
+console.group("tugase hamdan : palindrom");
 function isPalindrome(str) {
     str = str.toLowerCase().replace(/[^a-zA-Z0-9]/g, ""); // mengubah semua huruf menjadi lowercase dan menghapus karakter non-alphanumeric
     var len = str.length;
@@ -15,6 +16,7 @@ function isPalindrome(str) {
 console.log(isPalindrome("civic"));
 console.log(isPalindrome("mana anam"));
 console.log(isPalindrome("turbo"));
+console.groupEnd();
 
 //fizzbuzz by zen
 function fizzbuzz() {
