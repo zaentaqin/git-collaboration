@@ -42,8 +42,8 @@ func HitungLuasTrapesium(a, b, t int) float32 {
 	return float32(luas) * 0.5
 }
 
-func KelilingSegitiga(s int) int {
-	return s + s + s
+func luasPermukaanBalok(p, l, t int) int {
+	return 2 * (p*l + l*t + p*t)
 }
 
 // Saya siap eror
@@ -54,8 +54,9 @@ func HitungLuasTabung(r, t int) float32 {
 
 // write by hamdan
 func hitungVolumeBola(jariJari float64) float64 {
-    volume := (4.0 / 3.0) * math.Pi * math.Pow(jariJari, 3)
-    return volume
+	volume := (4.0 / 3.0) * math.Pi * math.Pow(jariJari, 3)
+	return volume
 }
-
-
+func luasJajarGenjang(a, t int) int {
+	return a * t / 2
+}
