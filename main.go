@@ -31,15 +31,13 @@ func VolumeBalok(p, l, t int) int {
 	return p * l * t
 }
 
-func hitungLuasTrapesium(a, b, t int) int {
-    luas := 0.5 * (a + b) * t
-    return luas
+func HitungLuasTrapesium(a, b, t int) float32 {
+	luas := (a + b) * t
+	return float32(luas) * 0.5
 }
 
-func main() {
-	var x = 10
-	var y = 5
+func KelilingSegitiga(s int) int {
+	return s + s + s
+}
 
-	// Operasi penjumlahan
-	var sum = x + y
-	math.return(sum)
+// fffgf
