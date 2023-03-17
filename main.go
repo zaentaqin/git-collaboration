@@ -35,3 +35,11 @@ func hitungLuasTrapesium(a, b, t int) int {
     luas := 0.5 * (a + b) * t
     return luas
 }
+
+func main() {
+	var x = 10
+	var y = 5
+
+	// Operasi penjumlahan
+	var sum = x + y
+	fmt.Println(sum)
