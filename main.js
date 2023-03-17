@@ -19,6 +19,7 @@ console.log(isPalindrome("turbo"));
 console.groupEnd();
 
 //fizzbuzz by zen
+console.group("fizzbuz by zen");
 function fizzbuzz() {
     for (var i = 1; i < 30; i++) {
         if (i % 15 == 0) console.log("FizzBuzz");
@@ -29,3 +30,4 @@ function fizzbuzz() {
 }
 
 fizzbuzz();
+console.groupEnd();
