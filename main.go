@@ -40,9 +40,9 @@ func KelilingSegitiga(s int) int {
 	return s + s + s
 }
 
-func hitungLuasTabung(r, t int) int {
+func HitungLuasTabung(r, t int) float32 {
 	const Phi float32 = 3.14
-	return 2 * Phi * (r + t)
+	return 2.0 * Phi * (float32(r) + float32(t))
 }
 
 func hitungVolumeBola(jariJari float64) float64 {
