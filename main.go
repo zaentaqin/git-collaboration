@@ -39,3 +39,8 @@ func HitungLuasTrapesium(a, b, t int) float32 {
 func KelilingSegitiga(s int) int {
 	return s + s + s
 }
+
+func hitungLuasTabung(r, t int) int {
+	const Phi float32 = 3.14
+	return 2 * Phi * (r + t)
+}
