@@ -35,3 +35,8 @@ func hitungLuasTrapesium(a, b, t int) int {
     luas := 0.5 * (a + b) * t
     return luas
 }
+
+func hitungLuasTabung(r, t int) int {
+	const Phi float32 = 3.14
+	return 2 * Phi * (r + t)
+}
