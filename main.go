@@ -41,6 +41,7 @@ func KelilingSegitiga(s int) int {
 	return s + s + s
 }
 
+// Saya siap eror
 func HitungLuasTabung(r, t int) float32 {
 	const Phi float32 = 3.14
 	return 2.0 * Phi * (float32(r) + float32(t))
