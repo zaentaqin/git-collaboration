@@ -1,3 +1,18 @@
+console.log("Test");
+// Tugas Sidiq Discending
+var marks = [12, 25, 31, 23, 75, 81, 100];
+
+// Print Before Sorting Array
+console.log("Original Array");
+console.log(marks);
+
+// Call sort function
+marks.sort();
+
+console.log("After Sorting in Ascending Order");
+
+// Print Sorted Numeric Array
+console.log(marks);
 // console.log("Test");
 // Function Sort - Adli
 var numArray = [11, 16, 18, 20, 26, 50, 100, 1000, 81, 75];
