@@ -22,3 +22,7 @@ func LuasLingkaran(r float32) float32 {
 func VolumeLingkaran(s int) (result int) {
 	return int(math.Pow(float64(s), 3))
 }
+
+func VolumeBalok(p, l, t int) int {
+	return p * l * t
+}
