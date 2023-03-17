@@ -42,4 +42,4 @@ func main() {
 
 	// Operasi penjumlahan
 	var sum = x + y
-	fmt.Println(sum)
+	math.return(sum)
