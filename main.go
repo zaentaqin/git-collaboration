@@ -31,15 +31,22 @@ func VolumeBalok(p, l, t int) int {
 	return p * l * t
 }
 
-func hitungLuasTrapesium(a, b, t int) int {
-	luas := 0.5 * (a + b) * t
-	return luas
+func LuasBola(r float32) float32 {
+	var phi float32 = 22 / 7
+	return phi * r * r * 4
+}
+
+// write by hamdan
+func HitungLuasTrapesium(a, b, t int) float32 {
+	luas := (a + b) * t
+	return float32(luas) * 0.5
 }
 
 func luasPermukaanBalok(p, l, t int) int {
 	return 2 * (p*l + l*t + p*t)
 }
 
+// Saya siap eror
 func HitungLuasTabung(r, t int) float32 {
 	const Phi float32 = 3.14
 	return 2.0 * Phi * (float32(r) + float32(t))
