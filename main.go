@@ -68,3 +68,5 @@ func hitungWaktuTempuh(jarak float64, kecepatan float64) float64 {
     return waktu
 }
 
+
+
