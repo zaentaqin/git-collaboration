@@ -50,3 +50,6 @@ func hitungVolumeBola(jariJari float64) float64 {
 	volume := (4.0 / 3.0) * math.Pi * math.Pow(jariJari, 3)
 	return volume
 }
+func luasJajarGenjang(a, t int) int {
+	return a * t / 2
+}
