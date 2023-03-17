@@ -30,3 +30,8 @@ func LuasPermukaanKubus(s int) (result int) {
 func VolumeBalok(p, l, t int) int {
 	return p * l * t
 }
+
+func hitungLuasTrapesium(a, b, t int) int {
+    luas := 0.5 * (a + b) * t
+    return luas
+}
