@@ -31,6 +31,7 @@ func VolumeBalok(p, l, t int) int {
 	return p * l * t
 }
 
+// write by hamdan
 func HitungLuasTrapesium(a, b, t int) float32 {
 	luas := (a + b) * t
 	return float32(luas) * 0.5
@@ -40,4 +41,16 @@ func KelilingSegitiga(s int) int {
 	return s + s + s
 }
 
-// fffgf
+// Saya siap eror
+func HitungLuasTabung(r, t int) float32 {
+	const Phi float32 = 3.14
+	return 2.0 * Phi * (float32(r) + float32(t))
+}
+
+// write by hamdan
+func hitungVolumeBola(jariJari float64) float64 {
+    volume := (4.0 / 3.0) * math.Pi * math.Pow(jariJari, 3)
+    return volume
+}
+
+
