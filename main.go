@@ -30,3 +30,8 @@ func LuasPermukaanKubus(s int) (result int) {
 func VolumeBalok(p, l, t int) int {
 	return p * l * t
 }
+
+func LuasBola(r float32) float32 {
+	var phi float32 = 22 / 7
+	return phi * r * r * 4
+}
