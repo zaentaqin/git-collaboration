@@ -53,4 +53,8 @@ func hitungVolumeBola(jariJari float64) float64 {
 }
 
 // write by hamdan 
-func coba()
+func hitungWaktuTempuh(jarak float64, kecepatan float64) float64 {
+    waktu := jarak / kecepatan
+    return waktu
+}
+
