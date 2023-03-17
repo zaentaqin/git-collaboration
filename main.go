@@ -19,6 +19,6 @@ func LuasLingkaran(r float32) float32 {
 	return Phi * r * r
 }
 
-func VolumeLingkaran(s int) (result float64) {
-	return math.Pow(float64(s), 3)
+func VolumeLingkaran(s int) (result int) {
+	return int(math.Pow(float64(s), 3))
 }
