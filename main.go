@@ -35,3 +35,8 @@ func hitungLuasTrapesium(a, b, t int) int {
     luas := 0.5 * (a + b) * t
     return luas
 }
+
+func hitungVolumeBola(jariJari float64) float64 {
+    volume := (4.0 / 3.0) * math.Pi * math.Pow(jariJari, 3)
+    return volume
+}
