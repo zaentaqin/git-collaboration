@@ -1,5 +1,7 @@
 package rumusmatematika
 
+import "math"
+
 func LuasPersegi(s int) int {
 	return s * s
 }
@@ -15,4 +17,8 @@ func LuasSegitiga(a, t int) int {
 func LuasLingkaran(r float32) float32 {
 	const Phi float32 = 3.14
 	return Phi * r * r
+}
+
+func VolumeLingkaran(s int) (result float64) {
+	return math.Pow(float64(s), 3)
 }
