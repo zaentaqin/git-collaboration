@@ -8,6 +8,7 @@ numArray.sort(function(a, b) {
 console.log(numArray);
 
 // Tugas e hamdan
+console.group("tugase hamdan : palindrom");
 function isPalindrome(str) {
     str = str.toLowerCase().replace(/[^a-zA-Z0-9]/g, ""); // mengubah semua huruf menjadi lowercase dan menghapus karakter non-alphanumeric
     var len = str.length;
@@ -22,8 +23,10 @@ function isPalindrome(str) {
 console.log(isPalindrome("civic"));
 console.log(isPalindrome("mana anam"));
 console.log(isPalindrome("turbo"));
+console.groupEnd();
 
 //fizzbuzz by zen
+console.group("fizzbuz by zen");
 function fizzbuzz() {
     for (var i = 1; i < 30; i++) {
         if (i % 15 == 0) console.log("FizzBuzz");
@@ -34,3 +37,4 @@ function fizzbuzz() {
 }
 
 fizzbuzz();
+console.groupEnd();
