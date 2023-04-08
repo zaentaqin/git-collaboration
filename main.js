@@ -1,3 +1,4 @@
+console.group("PEngurutan angka")
 console.log("Test");
 // Tugas Sidiq Discending
 var marks = [12, 25, 31, 23, 75, 81, 100];
@@ -13,14 +14,20 @@ console.log("After Sorting in Ascending Order");
 
 // Print Sorted Numeric Array
 console.log(marks);
+console.groupEnd();
+
 // console.log("Test");
+
+
 // Function Sort - Adli
+console.group("Func Sort : Aldi");
 var numArray = [11, 16, 18, 20, 26, 50, 100, 1000, 81, 75];
-numArray.sort(function(a, b) {
+numArray.sort(function (a, b) {
     return a - b;
-  });
-  
+});
+
 console.log(numArray);
+console.groupEnd();
 
 // Tugas e hamdan
 console.group("tugase hamdan : palindrom");
